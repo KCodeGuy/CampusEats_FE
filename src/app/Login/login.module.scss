@@ -1,0 +1,67 @@
+.d-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.infoLogin {
+  text-align: center;
+
+  img {
+    width: 10%;
+    margin-top: 10px;
+    height: auto;
+  }
+
+  h2 {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: var(--title-color);
+  }
+
+  p {
+    margin: 10px 0;
+  }
+}
+
+.loginForm {
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  form {
+    margin-bottom: 20px;
+
+    p {
+      margin-top: 10px;
+    }
+
+    button {
+      width: 100%;
+      background-color: var(--main-color);
+      color: var(--white-color);
+    }
+    button:hover {
+      background-color: var(--success);
+      color: var(--white-color);
+      transition: all 0.5s ease;
+    }
+  }
+}
+
+.btnBack {
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .infoLogin img {
+    width: 10%;
+  }
+}
+
+@media (max-width: 375px) {
+  .infoLogin img {
+    width: 15%;
+  }
+}
